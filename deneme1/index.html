@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://kit.fontawesome.com/423be8eb19.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="image/logo.site.png" alt="Logo" width="30" height="30" class="d-inline-block align-top" />
+        Ana menü
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">İletişim</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  " href="#flip">Hakkımızda</a>
+            
+          </li>
+        </ul>
+             
+ 
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit" style="color: aliceblue;  background-color: rgb(0, 0, 0);">Ara</button>
+        </form>
+        <button class="btn btn-outline-light" id="renkDegistirButton" type="submit" style="color:rgb(255, 255, 255); background-color: rgb(0, 0, 0) ;  ">ışıkları kapat</button>
+        <button onclick="openChat()" style="background-color: black;">canlı iletişim</button>
+      </div>
+    </div>
+
+        
+  </nav>
+  
+
+
+
+
+
+
+
+
+<div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="image/site.to.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>sıkı çalışma</h5>
+        
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="image/site.to2.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>azim</h5>
+       
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="image/site.to3.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>ve gelen başarı</h5>
+       
+      </div>
+    </div>
+  </div>
+  <button  class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>  
+
+
+
+
+<BR></BR>
+
+
+
+
+
+
+
+<h5 style="text-align: center;border:solid;padding: 10px;">izleyerek öğrenenlerden misiniz?</h5>
+
+
+
+<div class="videos-container">
+  <div class="video-wrapper">
+    
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/gdt6qgIpOqc?si=VFRmcah7RO1LyJek" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <div class="card-body">
+      <h5 class="card-title">Video ile öğren</h5>
+     
+    </div>
+  </div>
+  <div class="video-wrapper">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/dMbciLsOvtk?si=qbR14mtg6j_w6PPl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <div class="card-body">
+      <h5 class="card-title">Video ile öğren</h5>
+     
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+  <div class="jumbotron">
+    <div class="row w-100">
+      <div class="col-md-6 cll">
+        <div class="card border-info mx-sm-1 p-3">
+          <div class="card border-info shadow text-info p-3 my-card"><span class="fa fa-circle" aria-hidden="true"></span></div>
+          <div class="text-info text-center mt-3">
+            <h4>Aktif Kullanıcı</h4>
+          </div>
+          <div class="text-info text-center mt-2">
+            <h1>234</h1>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 cll">
+        <div class="card border-success mx-sm-1 p-3">
+          <div class="card border-success shadow text-success p-3 my-card"><span class="fa fa-eye" aria-hidden="true"></span></div>
+          <div class="text-success text-center mt-3">
+            <h4>Günlük Görüntülenme</h4>
+          </div>
+          <div class="text-success text-center mt-2">
+            <h1>9332</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <div class="card" >
+    <h2 style="text-align: center;">rastgele cümleni çek</h2>
+    <p id="ozluSoz" style="text-align: center; font-weight: 600; font-size: 20px;"></p>
+    <button onclick="sansliButonu()">yapay zekadan cümlen için tıkla </button>
+  </div>
+
+
+
+<BR></BR>
+
+
+<h5 style="text-align: center;border:solid;padding: 10px;">ÇEVİRİ KARTLARIYLA KENDİNİZİ SINAYIN</h5>
+
+
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card10" id="card1" onmouseover="showTranslation('card1')" onmouseout="hideTranslation1('card1')">
+          Walk
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card10" id="card2" onmouseover="showTranslation('card2')" onmouseout="hideTranslation2('card2')">
+          Drive
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card10" id="card3" onmouseover="showTranslation('card3')" onmouseout="hideTranslation3('card3')">
+          Run
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="container">
+    <div class="kard-container">
+      <div class="kard">
+        <div class="front">
+          <p>hayvan</p>
+        </div>
+        <div class="back">
+          <p>animal</p>
+        </div>
+      </div>
+      <div class="kard">
+        <div class="front">
+          <p>aile</p>
+        </div>
+        <div class="back">
+          <p>family</p>
+        </div>
+      </div>
+      <div class="kard">
+        <div class="front">
+          <p>merhaba</p>
+        </div>
+        <div class="back">
+          <p>hello</p>
+        </div>
+      </div>
+
+      <div class="kard">
+        <div class="front">
+          <p>kedi</p>
+        </div>
+        <div class="back">
+          <p>cat</p>
+        </div>
+      </div>
+      <div class="kard">
+        <div class="front">
+          <p>köpek</p>
+        </div>
+        <div class="back">
+          <p>dog</p>
+        </div>
+      </div>
+      <div class="kard">
+        <div class="front">
+          <p>bilgisayar</p>
+        </div>
+        <div class="back">
+          <p>computer</p>
+        </div>
+      </div>
+      <div class="kard">
+        <div class="front">
+          <p>telefon</p>
+        </div>
+        <div class="back">
+          <p>phone</p>
+        </div>
+      </div>
+      <div class="kard">
+        <div class="front">
+          <p>kitap</p>
+        </div>
+        <div class="back">
+          <p>book</p>
+        </div>
+      </div>
+      <div class="kard">
+        <div class="front">
+          <p>su</p>
+        </div>
+        <div class="back">
+          <p>water</p>
+        </div>
+      </div>
+      <div class="kard">
+        <div class="front">
+          <p>arkadaş</p>
+        </div>
+        <div class="back">
+          <p>friend</p>
+        </div>
+      </div>
+      <div class="kard">
+        <div class="front">
+          <p>bardak</p>
+        </div>
+        <div class="back">
+          <p>cup</p>
+        </div>
+      </div>
+      <div class="kard">
+        <div class="front">
+          <p>ev</p>
+        </div>
+        <div class="back">
+          <p>house</p>
+        </div>
+      </div>
+      <div class="kard">
+        <div class="front">
+          <p>kalem</p>
+        </div>
+        <div class="back">
+          <p>pen</p>
+        </div>
+      </div>
+      <div class="kard">
+        <div class="front">
+          <p>kitap</p>
+        </div>
+        <div class="back">
+          <p>book</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<BR></BR>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="parallax2">
+
+
+
+  <div id="testSection" style="text-align: center; border: solid; color: aliceblue;">
+    <h1>test sorularıyla kendinizi sınayın</h1>
+    <div id="questionContainer">
+      <p id="question1">Soru 1: Hangisi "elma" kelimesinin İngilizcesidir?</p>
+      <input type="radio" id="q1_option1" name="q1_options" value="apple">
+      <label for="q1_option1">Apple</label><br>
+      <input type="radio" id="q1_option2" name="q1_options" value="banana">
+      <label for="q1_option2">Banana</label><br>
+      <input type="radio" id="q1_option3" name="q1_options" value="orange">
+      <label for="q1_option3">Orange</label><br>
+    </div>
+    <div id="questionContainer">
+      <p id="question2">Soru 2: Hangisi "araba" kelimesinin İngilizcesidir?</p>
+      <input type="radio" id="q2_option1" name="q2_options" value="car">
+      <label for="q2_option1">Car</label><br>
+      <input type="radio" id="q2_option2" name="q2_options" value="bus">
+      <label for="q2_option2">Bus</label><br>
+      <input type="radio" id="q2_option3" name="q2_options" value="bike">
+      <label for="q2_option3">Bike</label><br>
+    </div>
+    <div id="questionContainer">
+      <p id="question3">Soru 3: Hangisi "kitap" kelimesinin İngilizcesidir?</p>
+      <input type="radio" id="q3_option1" name="q3_options" value="book">
+      <label for="q3_option1">Book</label><br>
+      <input type="radio" id="q3_option2" name="q3_options" value="pencil">
+      <label for="q3_option2">Pencil</label><br>
+      <input type="radio" id="q3_option3" name="q3_options" value="notebook">
+      <label for="q3_option3">Notebook</label><br>
+    </div>
+    <button onclick="checkAnswers()">Cevapları Kontrol Et</button>
+    <div id="answerResult"></div>
+  </div>
+
+  </div>
+  
+  <br>
+  
+
+
+
+
+  <input  type="text" id="wordToTranslate" placeholder="türkçesini merak ettiğiniz ingilizce kelimeyi girin">
+  <button onclick="translateWord()"  >Çevir</button>
+  <div id="translationResult"></div>  <br>
+  
+
+
+  <h5 style="text-align: center;">BU KISIMDAN SONRA KULAK AŞİNALIĞI KAZANICAKSINIZ</h5>
+
+
+  <div style="border: solid;">
+    <p id="word">Congratulations </p>
+    <audio id="audio" src="image/congratulations-deep-voice-172193.mp3"></audio>
+  </div>
+
+  <br>
+  
+  <div style="border:solid;">
+    <p id="word2">where are you?</p>
+    <audio id="audio2" src="image/where-are-you-104660.mp3"></audio>
+  </div>
+  
+  <br>
+  
+
+
+
+
+<audio id="ses" controls>
+  <source src="ima" type="audio/mpeg">
+  Tarayıcınız ses etiketlerini desteklemiyor.
+</audio> <BR></BR>
+
+<button onclick="cal()">Sesi Çal</button>
+
+
+
+<BR></BR>
+
+
+
+
+
+<h3 >sitemizi beğendiniz mi? neden bir paylaşım yaparak arkadaşlarınıza bizimle olduğunuzu söylemiyorsunuz?</h3>
+
+<button onclick="shareOnFacebook()">Facebook'ta Paylaş</button>
+    <button onclick="shareOnTwitter()">Twitter'da Paylaş</button>
+    <button onclick="shareOnInstagram()">instegram'da paylaş</button>
+
+  <BR></BR>
+
+
+
+
+
+<!--zamanlayıcı kısmı -->
+  <div id="countdown"> </div> <p>saniyeniz kaldı,evet katkınız için heyecanlı ve aceleciyiz</p>
+
+<h3>bizi çekinmeden değerlendirin.</h3>
+
+  <div class="rating">
+    <input type="radio" id="star1" name="rating" value="5">
+    <label for="star5">★</label>
+    <input type="radio" id="star2" name="rating" value="5">
+    <label for="star4">★★</label>
+    <input type="radio" id="star3" name="rating" value="5">
+    <label for="star3">★★★</label>
+    <input type="radio" id="star4" name="rating" value="5">
+    <label for="star2">★★★★</label>
+    <input type="radio" id="star5" name="rating" value="5">
+    <label for="star1">★★★★★</label>
+  </div>
+
+
+  
+
+  <br>
+
+
+
+
+
+<!-- altarnatif e mail yerimiz ileriye dönük kullanıcı için kullanışlı
+<input type="text" id="name" placeholder="Adınız" required>
+<input type="email" id="email" placeholder="E-posta Adresiniz" required>
+<textarea id="message" placeholder="Mesajınız" required></textarea>
+<button type="submit">Gönder</button>
+
+
+-->
+
+
+
+
+<div id="parallax">
+
+  <button id="indirButton" class="butonpdf" style="margin-bottom: 20px;">Oxford, A2 kelime listesini indirmek için</button>
+
+  <div class="container4">
+    <form id="kullaniciKaydiFormu">
+      <h5 style="color: aliceblue;">Kullanıcı Kaydı</h5>
+      <div  class="form-group">
+        <label for="ad">Adınız:</label>
+        <input type="text" id="ad" name="ad" required>
+      </div>
+      <div class="form-group">
+        <label for="soyad">Soyadınız:</label>
+        <input type="text" id="soyad" name="soyad" required>
+      </div>
+      <div class="form-group">
+        <label for="email">E-posta:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <button type="submit">Kaydol</button>
+    </form>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+<div id="flip">hakkımızda için tıklayın</div>
+<div id="panel">herkese selam </div>
+
+
+
+
+
+
+
+
+
+  <footer class="section foot
+  rim footer-classic context-dark bg-image" style="background: #2d3246;">
+    <div class="container">
+      <div class="zmnn">
+        <h1 style="color: white;">Saat: <span id="zemin"> </span></h1>
+      </div>
+      <br>
+      <div class="row row-30">
+        <div class="col-md-4 col-xl-5">
+          <div class="pr-xl-4">
+            <a class="brand" href="index.html">
+              <img class="brand-logo-light"
+                src="image/logo.site.png"
+                alt=""
+                width="140"
+                height="120"
+                srcset="image/agency/logo-retina-inverse-280x74.png 2x"
+              />
+            </a>
+            <p style="color: white;">Tüm Telif Hakları Saklıdır</p>
+            <p class="rights" id="currentYear" style="color: rgb(255, 244, 244);">
+              <span>© </span><span class="copyright-year"></span><span>
+              </span><span>Waves</span><span> </span><span>All Rights Reserved.</span>
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <h5 class="denemeclass">iletişim</h5>
+          <dl class="contact-list">
+            <dt style="color: white;">Adres:</dt>
+            <dd style="color: white;">Türkiye-istanbul</dd>
+          </dl>
+          <dl class="contact-list">
+            <dt style="color: white;">email:</dt>
+            <dd><a href="mailto:#">kerim@gmail.com</a></dd>
+          </dl>
+          <dl class="contact-list">
+            <dt>telefon:</dt>
+            <dd><a href="tel:#">0536-716-2102</a> <span>
+            </dd>
+          </dl>
+        </div>
+        <div class="col-md-4 col-xl-3">
+          <h5 style="color: white;">Links</h5>
+          <ul class="nav-list foot-lnk abc">
+            <li><a href="#flip">hakkımızda</a></li>
+            <li><a href="#">projelerimiz</a></li>
+            <li><a href="#">Bloğumuz</a></li>
+            <li><a href="contact.html">iletişim</a></li>
+            <li><a href="#">iş birliği için</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row no-gutters social-container">
+      <div class="col foot-lnk2">
+        <a class="social-inner" href="https://tr-tr.facebook.com/">
+          <span class="icon mdi mdi-facebook"></span><span>Facebook</span>
+        </a>
+      </div>
+      <div class="col foot-lnk2">
+        <a class="social-inner" href="#" id="instagramLink">
+          <span class="icon mdi mdi-instagram"></span><span>Instagram</span>
+        </a>
+      </div>
+    </div>
+  </footer>
+  <div id="yukari">
+    <i class="fa fa-arrow-up"></i>
+  </div>
+
+
+
+
+<BR></BR>
+
+
+<input id="myInput" type="text" placeholder="Search..">
+<br><br>
+
+<table>
+  <thead>
+    <tr>
+      <th>Firstname</th>
+      <th>Lastname</th>
+      <th>Email</th>
+       <!-- Köşe hücresi -->
+    </tr>
+  </thead>
+  <tbody id="myTable">
+    <tr>
+      <td>cihan</td>
+      <td>terat</td>
+      <td>john@example.com</td>
+      <td style="text-align: center;">
+        <!-- Buraya eklemek istediğiniz düğmeleri veya içeriği yerleştirin -->
+       
+      </td>
+    </tr>
+
+    <tr>
+      <td>alan</td>
+      <td>yusufoglu</td>
+      <td>mary@mail.com</td>
+      <td style="text-align: center;">
+        <!-- Buraya eklemek istediğiniz düğmeleri veya içeriği yerleştirin -->
+
+      </td>
+    </tr>
+    <tr>
+      <td>enes</td>
+      <td>demirsen</td>
+      <td>july@greatstuff.com</td>
+      <td style="text-align: center;">
+        <!-- Buraya eklemek istediğiniz düğmeleri veya içeriği yerleştirin -->
+       
+      </td>
+    </tr>
+    <tr>
+      <td>şerif ali</td>
+      <td>tavaslıoglu</td>
+      <td>a_r@test.com</td>
+      <td style="text-align: center;">
+        <!-- Buraya eklemek istediğiniz düğmeleri veya içeriği yerleştirin -->
+      
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+<BR></BR>
+
+
+<p id="p1hareket"><img style="height: 35px;" src="image/logo.site.png" alt=""></p>
+
+<button id="maskotButton">Maskot hareketi için tıkla !!!</button>
+
+
+
+<br>
+
+
+<p>altta kapanıcak olan paragraflar mevcut.</p>
+<p class="test">paragraf 1</p>
+<p class="test">paragraf 2</p>
+
+<button class="removeButton">2 paragrafı kapatmak için</button>
+
+
+
+
+
+
+
+
+
+
+<button class="dimensionButton">site mesaj kutucuğunuzun boyutunu öğrenmek için tıklayın.</button>
+
+
+
+
+
+
+
+<ol>
+  <li>liste satırım </li>
+  
+</ol>
+
+<button id="btn2" style="display: block;">yeni satır eklemek için</button>
+
+<BR></BR>
+
+
+
+<button>kutu animasyonlarını çalıştırmak için</button>
+<br><br>
+
+<div id="div1" style="width:80px;height:80px;background-color:red;"></div><br>
+<div id="div2" style="width:80px;height:80px;background-color:green;"></div><br>
+<div id="div3" style="width:80px;height:80px;background-color:blue;"></div>
+
+
+
+
+<p>rengi değişen paragrafımız.</p> 
+
+<BR></BR>
+
+
+
+Name: <input type="text" name="fullname"><br> 
+Email: <input type="text" name="email">
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <script src="js/index.js"></script>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
